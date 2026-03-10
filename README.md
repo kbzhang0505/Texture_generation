@@ -37,6 +37,8 @@
 ![t2i_result0-1](https://github.com/user-attachments/assets/48dbf073-a818-4b35-bb2c-b6219470345e)
 
 # 时尚服装可控生成
+[图8.pdf](https://github.com/user-attachments/files/25870203/8.pdf)
+
 
 # 多模态服装数据集
 多模态服装图像生成技术的发展受到现有数据集中图像分辨率低和标注稀疏的限制。为了缩小这一差距，我们扩展了高分辨率的Dress Code和VITON-HD数据集，通过添加对齐的多模态标注（包括文本描述、线条图和面料纹理）来丰富其店铺内服装图像，分别构建了Dress Code Garment和VITON-HD Garment数据集。该数据集样本示例如下（除了原始的店内服装图像，我们还提供了文本描述、纹理图和线稿图）:
