@@ -14,6 +14,25 @@
 
 <img width="1246" height="713" alt="花卉纹理设计-错误分析" src="https://github.com/user-attachments/assets/26690703-6a1c-451f-80b3-7d9e1ec17b96" />
 
-本课题组基于构建的TileVL印花数据集提出多文本要素联合的交叉注意力激励图案布局控制方法。布局控制和色彩生成准确性显著提升，可视化效果如下：
+本课题组基于构建的TileVL印花数据集提出多文本要素联合的交叉注意力激励图案布局控制方法DippDiff。布局控制和色彩生成准确性显著提升，可视化效果如下：
 
 <img width="1112" height="946" alt="粉花叶纹样设计-无缝风格" src="https://github.com/user-attachments/assets/c6445017-5552-4a6b-b904-3cb489da7c14" />
+
+# 纺织数码印花图案四方连续生成研究
+
+现有纹理平铺方法在处理复杂印花图案的边缘平铺性任务时存在边缘接缝伪影的问题，为此本课题组提出了一种名为BiSeDiff的扩散生成框架，实现将非平铺示例图案转化为可平铺图案。通过在去噪过程中交替进行双向特征平移与标准去噪，使图像边界信息被移动到中心区域进行修复，从而生成无缝连续的纹理图案。与此同时，结合纹理对齐模块和重叠解码方法，在保持示例纹理结构与风格一致性的同时，实现高质量、无边界接缝的大尺寸纹理生成。该方法主要研究成果如下：
+
+<img width="1219" height="806" alt="印花图案四方连续图" src="https://github.com/user-attachments/assets/a718e28e-3e13-41a4-9ec5-3a526cc48631" />
+
+4x4平铺效果展示：
+<img width="1474" height="1513" alt="More_visualize_result_4x4-新" src="https://github.com/user-attachments/assets/131483be-3123-4f84-b79e-1a415ccc5ef7" />
+
+8x8平铺效果展示：
+<img width="2000" height="2270" alt="More_visualize_result_8x8_a" src="https://github.com/user-attachments/assets/dba6ddd2-badb-4aba-bc67-e05e9498c563" />
+<img width="2000" height="2269" alt="More_visualize_result_8x8_d" src="https://github.com/user-attachments/assets/c0791b40-9af4-4354-88fb-ec84b471f240" />
+
+文本到边缘无限平铺图案生成效果：
+
+![t2i_result0-1](https://github.com/user-attachments/assets/30cfd657-a078-4d68-8dc0-c8915924d3a5)
+
+![t2i_result-2](https://github.com/user-attachments/assets/e2630554-1126-42aa-bb20-9a2e0c277d17)
