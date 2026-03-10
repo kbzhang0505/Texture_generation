@@ -1,2 +1,2 @@
-# Texture generation
-中文
+# 纹理生成
+中文 
