@@ -32,9 +32,9 @@
 <img width="2000" height="2269" alt="More_visualize_result_8x8_d" src="https://github.com/user-attachments/assets/c0791b40-9af4-4354-88fb-ec84b471f240" />
 
 文本到边缘无限平铺图案生成效果：
-![t2i_result0-1](https://github.com/user-attachments/assets/30cfd657-a078-4d68-8dc0-c8915924d3a5)
 
-![t2i_result-2](https://github.com/user-attachments/assets/e2630554-1126-42aa-bb20-9a2e0c277d17)
+![t2i_result-2](https://github.com/user-attachments/assets/dcbb933e-3061-4d7b-832f-d0b201b46cae)
+![t2i_result0-1](https://github.com/user-attachments/assets/48dbf073-a818-4b35-bb2c-b6219470345e)
 
 # 时尚服装可控生成
 
