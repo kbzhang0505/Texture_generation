@@ -25,9 +25,11 @@
 <img width="1219" height="806" alt="印花图案四方连续图" src="https://github.com/user-attachments/assets/a718e28e-3e13-41a4-9ec5-3a526cc48631" />
 
 4x4平铺效果展示：
+
 <img width="1474" height="1513" alt="More_visualize_result_4x4-新" src="https://github.com/user-attachments/assets/131483be-3123-4f84-b79e-1a415ccc5ef7" />
 
 8x8平铺效果展示：
+
 <img width="2000" height="2270" alt="More_visualize_result_8x8_a" src="https://github.com/user-attachments/assets/dba6ddd2-badb-4aba-bc67-e05e9498c563" />
 <img width="2000" height="2269" alt="More_visualize_result_8x8_d" src="https://github.com/user-attachments/assets/c0791b40-9af4-4354-88fb-ec84b471f240" />
 
@@ -43,6 +45,7 @@
 # 时尚服装可控生成
 
 # 多模态服装数据集
+
 多模态服装图像生成技术的发展受到现有数据集中图像分辨率低和标注稀疏的限制。为了缩小这一差距，我们扩展了高分辨率的Dress Code和VITON-HD数据集，通过添加对齐的多模态标注（包括文本描述、线条图和面料纹理）来丰富其店铺内服装图像，分别构建了Dress Code Garment和VITON-HD Garment数据集。该数据集样本示例如下（除了原始的店内服装图像，我们还提供了文本描述、纹理图和线稿图）:
 
 <img width="6614" height="1583" alt="微信图片_20260310175845_1075_53" src="https://github.com/user-attachments/assets/7654e8ca-6088-4ee8-bf88-73ab553aec69" />
