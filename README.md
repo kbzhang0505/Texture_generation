@@ -20,7 +20,7 @@
 
 # 纺织数码印花图案四方连续生成研究
 
-现有纹理平铺方法在处理复杂印花图案的边缘平铺性任务时存在边缘接缝伪影的问题，为此本课题组提出了一种名为BiSeDiff的扩散生成框架，实现将非平铺示例图案转化为可平铺图案。通过在去噪过程中交替进行双向特征平移与标准去噪，使图像边界信息被移动到中心区域进行修复，从而生成无缝连续的纹理图案。与此同时，结合纹理对齐模块和重叠解码方法，在保持示例纹理结构与风格一致性的同时，实现高质量、无边界接缝的大尺寸纹理生成。该方法主要研究成果如下：
+现有纹理平铺方法在处理复杂印花图案的边缘平铺性任务时存在边缘接缝伪影的问题，为此本课题组提出了一种名为BiSeDiff的扩散生成框架，实现将非平铺示例图案转化为可平铺图案。通过在去噪过程中交替进行双向特征平移与标准去噪，使图像边界信息被移动到中心区域进行修复，从而生成无缝连续的纹理图案。与此同时，结合纹理对齐模块和重叠解码方法，在保持示例纹理结构与风格一致性的同时，实现高质量、无边界接缝的大尺寸纹理生成。该方法主要实验成果如下：
 
 <img width="1219" height="806" alt="印花图案四方连续图" src="https://github.com/user-attachments/assets/a718e28e-3e13-41a4-9ec5-3a526cc48631" />
 
@@ -31,14 +31,16 @@
 <img width="2000" height="2270" alt="More_visualize_result_8x8_a" src="https://github.com/user-attachments/assets/dba6ddd2-badb-4aba-bc67-e05e9498c563" />
 <img width="2000" height="2269" alt="More_visualize_result_8x8_d" src="https://github.com/user-attachments/assets/c0791b40-9af4-4354-88fb-ec84b471f240" />
 
+在通用纹理数据集DTD上的实验结果：
+
+<img width="1847" height="682" alt="四方连续结果 DTD" src="https://github.com/user-attachments/assets/eac32ab2-89f7-4c3c-8925-8a6fc2e21cce" />
+
 文本到边缘无限平铺图案生成效果：
 
 ![t2i_result-2](https://github.com/user-attachments/assets/dcbb933e-3061-4d7b-832f-d0b201b46cae)
 ![t2i_result0-1](https://github.com/user-attachments/assets/48dbf073-a818-4b35-bb2c-b6219470345e)
 
 # 时尚服装可控生成
-[图8.pdf](https://github.com/user-attachments/files/25870203/8.pdf)
-
 
 # 多模态服装数据集
 多模态服装图像生成技术的发展受到现有数据集中图像分辨率低和标注稀疏的限制。为了缩小这一差距，我们扩展了高分辨率的Dress Code和VITON-HD数据集，通过添加对齐的多模态标注（包括文本描述、线条图和面料纹理）来丰富其店铺内服装图像，分别构建了Dress Code Garment和VITON-HD Garment数据集。该数据集样本示例如下（除了原始的店内服装图像，我们还提供了文本描述、纹理图和线稿图）:
