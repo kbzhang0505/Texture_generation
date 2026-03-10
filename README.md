@@ -48,8 +48,9 @@
 
 多模态服装图像生成技术的发展受到现有数据集中图像分辨率低和标注稀疏的限制。为了缩小这一差距，我们扩展了高分辨率的Dress Code和VITON-HD数据集，通过添加对齐的多模态标注（包括文本描述、线条图和面料纹理）来丰富其店铺内服装图像，分别构建了Dress Code Garment和VITON-HD Garment数据集。该数据集样本示例如下（除了原始的店内服装图像，我们还提供了文本描述、纹理图和线稿图）:
 
-<img width="6614" height="1583" alt="微信图片_20260310175845_1075_53" src="https://github.com/user-attachments/assets/7654e8ca-6088-4ee8-bf88-73ab553aec69" />
+<img width="6131" height="2872" alt="微信图片_20260310175846_1076_53" src="https://github.com/user-attachments/assets/c1ccb4e3-1b8a-496c-9eec-1ce63d56c05c" />
 
 我们利用构建的数据集进行了多模态服装图像生成实验，并取得了令人满意的结果。该数据集支持多种条件模态的融合，从而实现可控且精细的服装生成。实验结果表明，该数据集能够为多模态服装生成模型提供有效的监督，并有助于生成高质量的服装图像。部分实验结果如下：
 
-<img width="6131" height="2872" alt="微信图片_20260310175846_1076_53" src="https://github.com/user-attachments/assets/c1ccb4e3-1b8a-496c-9eec-1ce63d56c05c" />
+
+<img width="6614" height="1583" alt="微信图片_20260310175845_1075_53" src="https://github.com/user-attachments/assets/7654e8ca-6088-4ee8-bf88-73ab553aec69" />
